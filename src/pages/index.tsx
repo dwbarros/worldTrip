@@ -1,9 +1,8 @@
-import { Flex } from "@chakra-ui/react";
+import { Banner } from "../components/Banner";
+
 
 export default function Home() {
   return (
-    <Flex>
-      <h1>WorldTrip</h1>
-    </Flex>
+    <Banner />
   )
 }
