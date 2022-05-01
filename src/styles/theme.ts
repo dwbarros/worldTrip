@@ -12,7 +12,9 @@ export const theme = extendTheme({
     yellow: {
       '900': '#FFBA08',
       '500': 'rgba(255, 186, 8,0.5)'
-    }
+    },
+    text: '#F5F8FA'
+    
   },
   fonts: {
     heading: 'Poppins',
