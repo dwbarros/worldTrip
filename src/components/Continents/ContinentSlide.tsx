@@ -28,42 +28,42 @@ export default function ContinentSlide() {
                     <Slide
                         title="Europa"
                         text='O "velho continente" com sua história, cultura e as cidades mais charmosas para se visitar'
-                        bgImage="/img/europe.jpg"
+                        bgImage="/img/continents/europe.jpg"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Slide
                         title="Ásia"
                         text="O maior continente em extensão do mundo"
-                        bgImage="/img/asia.jpg"
+                        bgImage="/img/continents/asia.jpg"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Slide
                         title="África"
                         text="Continente das paisagens exuberantes, safáris e dos animais"
-                        bgImage="/img/africa.jpg"
+                        bgImage="/img/continents/africa.jpg"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Slide
                         title="América do sul"
                         text="Grande variedade de paisagens, clima, e estilos em cada país do continente"
-                        bgImage="/img/south_america.jpg"
+                        bgImage="/img/continents/south_america.jpg"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Slide
                         title="América do norte"
                         text="Cidades urbanas e cosmopolitas, desérticas, nevadas, de sossego, de baladas, de parques de diversão, de turismo de aventura."
-                        bgImage="/img/america.jpg"
+                        bgImage="/img/continents/america.jpg"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Slide
                         title="Oceania"
                         text="Paisagens paradisíacas, tradições de civilizações aborígenes e cultura europeia, e cidades cheias de atrativos."
-                        bgImage="/img/oceania.jpg"
+                        bgImage="/img/continents/oceania.jpg"
                     />
                 </SwiperSlide>
             </Swiper>

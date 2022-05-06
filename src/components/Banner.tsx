@@ -7,7 +7,7 @@ export function Banner() {
             maxW='full' 
             h={['163px', '250px', '250px', '335px']}
             centerContent
-            bgImage='/img/background.png'
+            bgImage='/img/home/background.png'
             bgRepeat='no-repeat'
             bgSize='cover'
             justifyContent='center'
@@ -28,7 +28,7 @@ export function Banner() {
                 <Image
                     w={['320px','320px','320px', '420px']}
                     transform={['translate(0, 50px)', 'translate(0, 50px)', 'translate(0, 40px)', 'translate(0, 50px)']}
-                    src='/img/airplane.svg'
+                    src='/img/home/airplane.svg'
                     alt='Desenho de avião com nuvens ao fundo'
                 />
             </Flex>

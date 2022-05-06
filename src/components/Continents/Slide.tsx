@@ -22,8 +22,22 @@ export function Slide( { title, text, bgImage }: SlideProps) {
             align='center'
             direction='column'
         >
-            <Heading fontSize='5xl' marginBottom='8'>{title}</Heading>
-            <Text w='60%' fontWeight='700' fontSize='2xl'>{text}</Text>
+            <Heading
+              fontSize='5xl'
+              marginBottom='8'
+              textShadow='0.1rem 0.1rem 0.5rem black'
+              >
+                  {title}
+            </Heading>
+
+            <Text
+              w='60%'
+              fontWeight='700'
+              fontSize='2xl'
+              textShadow='0.1rem 0.1rem 0.5rem black'
+            >
+                {text}
+            </Text>
         </Flex>
     )
 }
