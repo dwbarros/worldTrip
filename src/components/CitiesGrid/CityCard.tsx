@@ -13,6 +13,7 @@ export function CityCard({ imgCover, city, country, imgFlag }: CityCardProps) {
     return (
         <GridItem
             w='100%'
+            m='0 auto'
             h='280px'
             maxWidth='300px'
             border='solid 1px'
