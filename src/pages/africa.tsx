@@ -14,11 +14,11 @@ export default function africa() {
                 bgPosition='center'
                 alignItems='end'
             >
-                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '20']}>
+                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '8', '12', '20']}>
                     <Heading
                         color='text'
                         fontWeight='600'
-                        fontSize='5xl'
+                        fontSize={['3xl', '4xl', '5xl', '5xl']}
                         textShadow='0.1rem 0.1rem 0.5rem black'
                     >
                         África
@@ -33,7 +33,7 @@ export default function africa() {
                     align='center'
                     direction={['column', 'column', 'row', 'row']}
                 >
-                    <Text w={['100%', '100%', '50%', '50%']} fontSize='xl' textAlign='justify'>
+                    <Text w={['100%', '100%', '50%', '50%']} fontSize={['md', 'lg', 'xl', 'xl']} textAlign='justify'>
                         A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.
                     </Text>
 

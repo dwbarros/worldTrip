@@ -14,11 +14,11 @@ export default function europe() {
                 bgPosition='center'
                 alignItems='end'
             >
-                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '20']}>
+                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '8', '12', '20']}>
                     <Heading
                         color='text'
                         fontWeight='600'
-                        fontSize='5xl'
+                        fontSize={['3xl', '4xl', '5xl', '5xl']}
                         textShadow='0.1rem 0.1rem 0.5rem black'
                     >
                         Europa
@@ -33,8 +33,8 @@ export default function europe() {
                     align='center'
                     direction={['column', 'column', 'row', 'row']}
                 >
-                    <Text w={['100%', '100%', '50%', '50%']} fontSize='xl' textAlign='justify'>
-                    A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.
+                    <Text w={['100%', '100%', '50%', '50%']} fontSize={['md', 'lg', 'xl', 'xl']} textAlign='justify'>
+                        A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.
                     </Text>
 
                     <Flex w={['100%', '70%', '40%', '40%']} paddingY='10' justify='space-between'>

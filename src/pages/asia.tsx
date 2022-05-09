@@ -14,11 +14,11 @@ export default function asia() {
                 bgPosition='center'
                 alignItems='end'
             >
-                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '20']}>
+                <Container maxW='1440px' padding='0 auto' w='90%' paddingBottom={['8', '8', '12', '20']}>
                     <Heading
                         color='text'
                         fontWeight='600'
-                        fontSize='5xl'
+                        fontSize={['3xl', '4xl', '5xl', '5xl']}
                         textShadow='0.1rem 0.1rem 0.5rem black'
                     >
                         Ásia
@@ -33,7 +33,7 @@ export default function asia() {
                     align='center'
                     direction={['column', 'column', 'row', 'row']}
                 >
-                    <Text w={['100%', '100%', '50%', '50%']} fontSize='xl' textAlign='justify'>
+                    <Text w={['100%', '100%', '50%', '50%']} fontSize={['md', 'lg', 'xl', 'xl']} textAlign='justify'>
                         A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico. Mas na parte meridional, a Ásia chega ao seu final na região mais quente dos trópicos, nas imediações da linha do equador. Na Ásia são encontradas algumas das montanhas mais altas do mundo; os rios mais extensos; os maiores desertos, planícies e planaltos; as selvas e florestas mais densas.
                     </Text>
 
